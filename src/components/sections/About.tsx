@@ -22,12 +22,12 @@ export const About = () => {
           {/* Content Column */}
           <div className="w-full lg:w-2/3">
             <AnimatedSection delay={0.2}>
-              <div className="bg-white/20 backdrop-blur-sm rounded-3xl p-8">
+              <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl">
                 <h2 className="text-4xl md:text-5xl font-black text-[#1A1A1A] mb-8 leading-tight">
                   {content.text.about.title}
                 </h2>
                 
-                <div className="space-y-6 text-lg text-zinc-600 leading-relaxed">
+                <div className="space-y-6 text-lg text-[#1A1A1A] leading-relaxed font-medium">
                   {content.text.about.content.map((paragraph, i) => (
                     <p key={i}>{paragraph}</p>
                   ))}
