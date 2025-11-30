@@ -8,6 +8,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { FAQ } from "@/components/sections/FAQ";
 import { Contact } from "@/components/sections/Contact";
 import { Footer } from "@/components/sections/Footer";
+import { FloatingElements } from "@/components/sections/FloatingElements";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <FAQ />
       <Contact />
       <Footer />
+      <FloatingElements />
     </main>
   );
 }
